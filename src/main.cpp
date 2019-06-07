@@ -6,7 +6,7 @@
 
 #define ONE_WIRE_BUS 7 //Broche 7 connexion au capteur de température
 #define POMPE 6 //Broche 6 connexion à la gate du mosfet
-#define NSECONDES 14000
+#define NSECONDES 14000 //Nombres de millisccondes pour remplir un verre d'eau
 
 OneWire oneWire(ONE_WIRE_BUS); //Bus One Wire sur la pin 2 de l'arduino
 DallasTemperature sensors(&oneWire); //Utilistion du bus Onewire pour les capteurs
